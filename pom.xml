@@ -38,6 +38,15 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+             
+      <plugin>
+<groupId> org.apache.maven.plugins </groupId>
+<artifactId> maven-war </artifactId>
+<version> 3.3.2 </version>
+<configuration>
+<webappDirectory> /dir </webappDirectory>
+</configuration>
+      </plugin>
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
